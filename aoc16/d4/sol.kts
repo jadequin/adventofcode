@@ -6,7 +6,7 @@ bug -> didn't check if a character of the checksum is non-existent in the room n
 
 import java.io.File
 
-val rooms = File("/home/till/dev/aoc/aoc16/d4/input.txt").readText().split("\n").map(::Room)
+val rooms = File("input.txt").readText().split("\n").map(::Room)
 
 fun solvePart1() =
         rooms

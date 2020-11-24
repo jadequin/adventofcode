@@ -1,6 +1,6 @@
 import java.io.File
 
-val input = File("/home/till/dev/aoc/aoc16/d2/input.txt")
+val input = File("input.txt")
 val instructionLines = input.readLines()
 
 /*

@@ -1,6 +1,6 @@
 import java.io.File
 
-val input = File("/home/till/dev/aoc/aoc16/d3/input.txt")
+val input = File("input.txt")
 val threeTimesThreeTriangles = input.readLines().chunked(3)
 val validTriangles = threeTimesThreeTriangles.sumBy {
     var sum = 0

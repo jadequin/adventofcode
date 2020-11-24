@@ -4,7 +4,7 @@ import kotlin.math.*
 //now you can add Pair<Int, Int> together :)
 operator fun Pair<Int, Int>.plus(p: Pair<Int, Int>): Pair<Int, Int> { return Pair(this.first + p.first, this.second + p.second) }
 
-val input = File("/home/till/dev/aoc/aoc16/d1/input.txt")
+val input = File("input.txt")
 val directions = input.readText().split(", ")
 
 val xySteps = arrayOf(0 to 1, 1 to 0, 0 to -1, -1 to 0) //North[0], West[1], South[2], East[3]

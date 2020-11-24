@@ -1,6 +1,6 @@
 import java.io.File
 
-val input = File("/home/till/dev/aoc/aoc16/d4/input.txt")
+val input = File("input.txt")
 
 val sectorIdNorthPoleObjects = (input.readLines().find {
     val roomNameChars = it.substringBeforeLast('-')

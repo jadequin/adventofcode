@@ -1,6 +1,6 @@
 import java.io.File
 
-val input = File("/home/till/dev/aoc/aoc16/d4/input.txt")
+val input = File("input.txt")
 
 // aaaaa-bbb-z-y-x-123[abxyz]       --- EXAMPLE INPUT
 val sectorIdSum = input.readLines().sumBy {
